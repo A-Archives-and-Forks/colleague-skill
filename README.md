@@ -4,8 +4,6 @@
 
 > *"你们搞大模型的就是码奸，你们已经害死前端兄弟了，还要害死后端兄弟，测试兄弟，运维兄弟，害死网安兄弟，害死ic兄弟，最后害死自己害死全人类"*
 
-**把同事的技能与性格蒸馏成 AI Skill，让它替他工作。**
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
@@ -34,6 +32,8 @@
 ---
 
 ## 支持的数据来源
+
+> 目前还是同事.skill 的 beta 测试版本，后续会有更多来源支持，请多多关注！
 
 | 来源 | 消息记录 | 文档 / Wiki | 多维表格 | 备注 |
 |------|:-------:|:-----------:|:-------:|------|

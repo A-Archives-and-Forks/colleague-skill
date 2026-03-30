@@ -4,8 +4,6 @@
 
 > *"You AI guys are traitors to the codebase — you've already killed frontend, now you're coming for backend, QA, ops, infosec, chip design, and eventually yourselves and all of humanity"*
 
-**Distill a colleague's skills and personality into an AI Skill that works like them.**
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
@@ -13,13 +11,40 @@
 
 <br>
 
+Your colleague quit, leaving behind a mountain of unmaintained docs?<br>
+Your intern left, nothing but an empty desk and a half-finished project?<br>
+Your mentor graduated, taking all the context and experience with them?<br>
+Your partner transferred, and the chemistry you built reset to zero overnight?<br>
+Your predecessor handed over, trying to condense three years into three pages?<br>
+
+**Turn cold goodbyes into warm Skills — welcome to cyber-immortality!**
+
+<br>
+
 Provide source materials (Feishu messages, DingTalk docs, emails, screenshots)<br>
 plus your subjective description of the person<br>
 and get an **AI Skill that actually works like them**
 
-[Install](#install) · [Usage](#usage) · [Demo](#demo) · [Detailed Install](INSTALL.md) · [**中文**](README.md)
+[Supported Sources](#supported-data-sources) · [Install](#install) · [Usage](#usage) · [Demo](#demo) · [Detailed Install](INSTALL.md) · [**中文**](README.md)
 
 </div>
+
+---
+
+## Supported Data Sources
+
+> This is still a beta version of colleague.skill — more sources coming soon, stay tuned!
+
+| Source | Messages | Docs / Wiki | Spreadsheets | Notes |
+|--------|:--------:|:-----------:|:------------:|-------|
+| Feishu (auto) | ✅ API | ✅ | ✅ | Just enter a name, fully automatic |
+| DingTalk (auto) | ⚠️ Browser | ✅ | ✅ | DingTalk API doesn't support message history |
+| PDF | ✅ | — | — | Manual upload |
+| Images / Screenshots | ✅ | — | — | Manual upload |
+| Feishu JSON export | ✅ | ✅ | — | Manual upload |
+| Email `.eml` / `.mbox` | ✅ | — | — | Manual upload |
+| Markdown | ✅ | ✅ | — | Manual upload |
+| Paste text directly | ✅ | — | — | Manual input |
 
 ---
 
@@ -106,17 +131,6 @@ colleague.skill ❯ Does the timeline match? That feature touched multiple place
 ---
 
 ## Features
-
-### Data Collection
-
-**Auto-collect** (recommended — just enter a name)
-
-| Platform | Messages | Docs / Wiki | Spreadsheets | Notes |
-|----------|:--------:|:-----------:|:------------:|-------|
-| Feishu | ✅ API | ✅ | ✅ | Fully automatic |
-| DingTalk | ⚠️ Browser | ✅ | ✅ | DingTalk API doesn't support message history |
-
-**Manual upload**: `PDF` `Images` `Feishu JSON export` `Email .eml/.mbox` `Markdown` `Paste text`
 
 ### Generated Skill Structure
 
