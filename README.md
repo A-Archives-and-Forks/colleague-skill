@@ -25,7 +25,7 @@
 
 </td>
 <td>
-<img src="docs/yaya.png" height="160px"/>
+<img src="docs/yaya_v2.png" height="160px"/>
 <br/><sub><em>——《流浪地球2》</em></sub>
 </td>
 </tr>
